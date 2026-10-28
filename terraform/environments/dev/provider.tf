@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "birdwatching-state-bucket"
+    bucket = "birdwatching-terraform-state-s3-bucket"
     key = "dev/application.tfstate"
     region = "eu-north-1"
     encrypt = true
