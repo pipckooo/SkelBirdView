@@ -45,6 +45,7 @@ vpc_peering_name = "dev"
 
 # S3
 bucket_name = "birdwatching-flask-application-bucket-dev-fork"
+bucket_secret_name = "BIRDWATCHING_S3_BUCKET"
 
 # Application roles
 role_name = "general-ec2-role-dev"

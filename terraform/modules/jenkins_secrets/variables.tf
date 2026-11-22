@@ -26,6 +26,10 @@ variable "secrets_region" {
     type = string
 }
 
+variable "bucket_secret_name" {
+    type = string
+}
+
 variable "bucket_name" {
     type = string
 }

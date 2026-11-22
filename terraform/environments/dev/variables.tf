@@ -110,6 +110,10 @@ variable "bucket_name" {
   type = string
 }
 
+variable "bucket_secret_name" {
+  type = string
+}
+
 # Application roles
 variable "role_name" {
   type = string
