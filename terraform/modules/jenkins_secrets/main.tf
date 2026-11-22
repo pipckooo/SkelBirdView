@@ -45,7 +45,7 @@ resource "aws_secretsmanager_secret_version" "database_ip" {
 }
 
 resource "aws_secretsmanager_secret" "BIRDWATCHING_S3_BUCKET" {
-    name = var.secret_bucket_name
+    name = var.bucket_secret_name
     tags = {
         "jenkins:credentials:type" = "string"
     }
