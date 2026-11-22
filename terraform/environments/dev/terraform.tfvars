@@ -44,7 +44,7 @@ dev_infra_key = "dev-infra/application.tfstate"
 vpc_peering_name = "dev"
 
 # S3
-bucket_name = "birdwatching-flask-application-bucket-dev"
+bucket_name = "birdwatching-flask-application-bucket-dev-fork"
 
 # Application roles
 role_name = "general-ec2-role-dev"
