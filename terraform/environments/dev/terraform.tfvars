@@ -37,7 +37,7 @@ lb_security_group_name = "lb-sg-dev"
 web_security_group_name = "web-sg-dev"
 db_security_group_name = "db-sg-dev"
 
-dev_infra_bucket = "birdwatching-state-bucket"
+dev_infra_bucket = "birdwatching-terraform-state-s3-bucket"
 dev_infra_key = "dev-infra/application.tfstate"
 
 # VPC peering
