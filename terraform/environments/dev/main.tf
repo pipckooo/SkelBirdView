@@ -108,7 +108,7 @@ module "jenkins_secrets" {
   secrets_region = var.region
   bucket_secret_name = var.bucket_secret_name
   bucket_name = var.bucket_name
-  s3_bucket_secret = var.s3_bucket_secret
+  s3_bucket_secret = var.bucket_secret_name
 }
 
 module "route_53" {
