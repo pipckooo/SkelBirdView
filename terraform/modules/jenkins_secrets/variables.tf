@@ -33,3 +33,7 @@ variable "bucket_secret_name" {
 variable "bucket_name" {
     type = string
 }
+
+variable "s3_bucket_secret" {
+    type = string
+}

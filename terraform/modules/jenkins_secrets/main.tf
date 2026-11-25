@@ -55,6 +55,6 @@ resource "aws_secretsmanager_secret" "BIRDWATCHING_S3_BUCKET" {
 }
 
 resource "aws_secretsmanager_secret_version" "BIRDWATCHING_S3_BUCKET" {
-    secret_string = var.bucket_name
+    secret_string = jsondecode(var.s3_bucket_secret)[var.bucket_name]
     secret_id = aws_secretsmanager_secret.BIRDWATCHING_S3_BUCKET.id
 }
