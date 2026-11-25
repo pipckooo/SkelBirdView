@@ -140,6 +140,3 @@ variable "web_server_2_private_ip_secret_name" {
     type = string
 }
 
-variable "s3_bucket_secret" {
-    type = string
-}
