@@ -1,6 +1,6 @@
 
 resource "aws_s3_bucket" "main" {
-  bucket = "birdwatching-state-bucket"
+  bucket = "birdwatching-terraform-state-s3-bucket"
 
   tags = {
     ManagedBy = "Terraform"

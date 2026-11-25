@@ -37,14 +37,15 @@ lb_security_group_name = "lb-sg-dev"
 web_security_group_name = "web-sg-dev"
 db_security_group_name = "db-sg-dev"
 
-dev_infra_bucket = "birdwatching-state-bucket"
+dev_infra_bucket = "birdwatching-terraform-state-s3-bucket"
 dev_infra_key = "dev-infra/application.tfstate"
 
 # VPC peering
 vpc_peering_name = "dev"
 
 # S3
-bucket_name = "birdwatching-flask-application-bucket-dev"
+bucket_name = "birdwatching-flask-application-bucket-dev-fork"
+bucket_secret_name = "BIRDWATCHING_S3_BUCKET"
 
 # Application roles
 role_name = "general-ec2-role-dev"

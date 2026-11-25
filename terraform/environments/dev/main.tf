@@ -106,6 +106,9 @@ module "jenkins_secrets" {
   web_server_2_private_ip = module.application.web_private_ips[1]
   database_private_ip = module.application.database_private_ip
   secrets_region = var.region
+  bucket_secret_name = var.bucket_secret_name
+  bucket_name = var.bucket_name
+  s3_bucket_secret = var.bucket_secret_name
 }
 
 module "route_53" {

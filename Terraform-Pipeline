@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/SkeletonCrew1/SkelBirdView.git'
+                git branch: 'SKEL-1-update-secrets', url: 'https://github.com/pipckooo/SkelBirdView'
             }
         }
 
